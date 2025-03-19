@@ -1,0 +1,49 @@
+# Ignore node_modules (only if using Node.js)
+node_modules/
+
+# Ignore dependencies from package managers (if applicable)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore system files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build files and cache (if using bundlers or preprocessors)
+dist/
+build/
+.cache/
+
+# Ignore compiled and minified files (optional)
+*.min.js
+*.min.css
+
+# Ignore hidden files (optional)
+.*~
+
+# Ignore unnecessary images or icons (if any temporary files exist)
+icons/temp/
+imgs/temp/
+shapes/temp/
+
+# Ignore SVG exports (if using an auto-generated folder)
+svg/exported/
+
+# Ignore text backup files
+*.bak
+*.old
